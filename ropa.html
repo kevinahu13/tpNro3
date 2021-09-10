@@ -1,23 +1,27 @@
 <!-- Una pagina donde el usuario puede ingresar 2 numero y hacer la cuenta que quiera -->
 <html>
-    <head>
-        <title>Ing de Software Tp3 </title>
-    </head>
-    <body>
-        <form action="verDatos.php" method="get">
-            <label for="dato1">Primer Numero</label>
-            <input type="number" name="numero1">
+
+<head>
+    <title>Ing de Software Tp3 </title>
+</head>
+
+<body>
+    <form action="verDatos.php" method="get">
+        <label for="dato1">Primer Numero</label>
+        <input type="number" name="numero1">
         <label for="dato2">Segundo Numero</label>
         <input type="number" name="numero2">
-    
+
         <select name="valor">
             <option value="0">Sumar</option>
             <option value="1" selected>Restar</option>
             <option value="2">Multiplicar</option>
-            <option value="3">Dividir</option>          
+            <option value="3">Dividir</option>
+            <option value="4">Promedio</option>
         </select>
         <input type="submit" value="Calcular">
     </form>
-       
-    </body>
+
+</body>
+
 </html>
